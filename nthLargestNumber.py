@@ -10,7 +10,7 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     # List of Integers
-    numbers = [1, 3, 4, 2,6,5,7,10,8,9]
+    numbers = [1, 3, 4, 20]
  
     #Sorting list of Integers
     numbers.sort()
