@@ -11,18 +11,16 @@ def hello():
     """Return a friendly HTTP greeting."""
     # Program to multiply two matrices using nested loops
 
-    # 3x3 matrix
-    X = [[12,7,3],
-        [4 ,5,6],
-        [7 ,8,9]]
-    # 3x4 matrix
-    Y = [[5,8,1,2],
-        [6,7,3,0],
-        [4,5,9,1]]
-    # result is 3x4
-    result = [[0,0,0,0],
-              [0,0,0,0],
-              [0,0,0,0]]
+    # 2x3 matrix
+    X = [[1,2,3],
+        [4 ,5,6]]
+    # 3x2 matrix
+    Y = [[10,11],
+        [20,21],
+        [30,31]]
+    # result is 2x2
+    result = [[0,0],
+              [0,0]]
 
     # iterate through rows of X
     for i in range(len(X)):
